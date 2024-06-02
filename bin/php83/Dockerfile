@@ -100,3 +100,12 @@ RUN a2enmod rewrite headers
 
 # Cleanup
 RUN rm -rf /usr/src/*
+
+# Copia a pasta coddoc-tracescript para /root e dá permissão de execução ao script
+COPY coddoc-tracescript /root/coddoc-tracescript
+RUN chmod +x /root/coddoc-tracescript/coddoc-tracescript.sh
+
+# Instalar inotify-tools
+RUN apt-get update && \
+    apt-get install -y inotify-tools && \
+    rm -rf /var/lib/apt/lists/*
