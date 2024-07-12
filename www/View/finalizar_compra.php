@@ -13,7 +13,7 @@
                         Agradecemos sinceramente por escolher a nossa loja. Esperamos que tenha uma ótima experiência com os seus novos produtos. Se precisar de qualquer assistência adicional, não hesite em nos contatar.
                         </p>
                         <div class="empty-action">
-                            <a href="/" class="btn btn-primary">
+                            <a id="voltar" href="/" class="btn btn-primary">
                                 Voltar ao Início
                             </a>
                         </div>

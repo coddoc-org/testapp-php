@@ -187,7 +187,7 @@
                         </div>
 
                         <div class="card-footer text-end">
-                            <button type="submit" class="btn btn-primary">Finalizar Compra</button>
+                            <button id="finalizar" type="submit" class="btn btn-primary">Finalizar Compra</button>
                         </div>
                     </div>
 

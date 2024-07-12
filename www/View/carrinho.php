@@ -40,7 +40,7 @@
                     <div class="row g-2 align-items-center">
                         <div class="col-8"></div>
                         <div class="col-4">
-                            <a href="/?c=Venda&m=realizarCheckout" class="btn btn-primary w-100">
+                            <a id="comprar" href="/?c=Venda&m=realizarCheckout" class="btn btn-primary w-100">
                                 Comprar
                             </a>
                         </div>

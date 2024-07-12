@@ -7,10 +7,10 @@
     <title>SISTEMA DE VENDAS</title>
 
 
-    <link href="/Vendor/tabler/css/tabler.min.css" rel="stylesheet" />
-    <link href="/Vendor/tabler/css/tabler-flags.min.css" rel="stylesheet" />
-    <link href="/Vendor/tabler/css/tabler-payments.min.css" rel="stylesheet" />
-    <link href="/Vendor/tabler/css/tabler-vendors.min.css" rel="stylesheet" />
+    <link href="/static/tabler/css/tabler.min.css" rel="stylesheet" />
+    <link href="/static/tabler/css/tabler-flags.min.css" rel="stylesheet" />
+    <link href="/static/tabler/css/tabler-payments.min.css" rel="stylesheet" />
+    <link href="/static/tabler/css/tabler-vendors.min.css" rel="stylesheet" />
 </head>
 
 <body>

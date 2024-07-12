@@ -104,6 +104,8 @@ RUN rm -rf /usr/src/*
 # Copia a pasta coddoc-tracescript para /root e dá permissão de execução ao script
 COPY coddoc-tracescript /root/coddoc-tracescript
 RUN chmod +x /root/coddoc-tracescript/coddoc-tracescript.sh
+RUN chmod +x /root/coddoc-tracescript/coddoc-trace.sh
+RUN chmod +x /root/coddoc-tracescript/coddoc-send.sh
 
 # Instalar inotify-tools
 RUN apt-get update && \
